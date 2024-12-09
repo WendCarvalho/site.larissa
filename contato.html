@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+/* CSS interno */
+
+        /* corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Caixa formulário */
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            padding-right: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            margin: 0 20px;
+        }
+
+        /* Título dentro da caixa */
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .form-group {
+            margin-bottom: 15px; /* Espaçamento */ 
+        } 
+
+        /* Estilos para o label */
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+/* Estilos para entrada de texto */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+ /* Estilos botão  */
+.form-group button {
+    width: 106%;
+    padding: 10px;
+    background-color:rgb(98, 68, 15);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ /* Estilos para o botão de envio quando o usuário passa o mouse sobre ele */
+.form-group button:hover {
+    background-color: rgb(98, 68, 15);
+}
+
+h1{
+            color: rgb(33, 31, 29);
+            font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+            color:rgb(98, 68, 15);
+            text-decoration: none;
+         }
+    
+</style>
+
+</head>
+
+<body>
+        <!---MENU-->
+        <div id="header">
+
+            <div id="logo">
+                <h1>Larissa Wend<span class="white"></span></h1>
+            </div>
+        
+            <div id="menu">
+                <a href="pginicial.html">Home</a> <br>
+                <a href="sobremim.html">Sobre mim</a> <br>
+                <a href="formacao.html">Formações</a> <br>
+                <a href="contato.html"></a>
+                
+            </div>
+    
+        </div>
+    
+        <!--Formulário-->
+    <div class="form-container">
+        <h1>Entre em Contato</h1>
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placehol-der="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placehol-der="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placehol-der="(XX) XXXXX-XXXX" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placehol-der="Escreva sua mensagem" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+
+    
+</body>
+</html>
